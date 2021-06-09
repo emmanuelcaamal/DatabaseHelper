@@ -1,0 +1,12 @@
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.deps.json
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csprojAssemblyReference.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.AssemblyInfo.cs
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.CopyComplete
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.pdb

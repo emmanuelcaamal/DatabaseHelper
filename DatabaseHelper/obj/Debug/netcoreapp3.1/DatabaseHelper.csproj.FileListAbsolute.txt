@@ -1,0 +1,9 @@
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.deps.json
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.pdb
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.csprojAssemblyReference.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.AssemblyInfoInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.AssemblyInfo.cs
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.pdb
