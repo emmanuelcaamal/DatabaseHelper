@@ -8,21 +8,21 @@ using System.Linq;
 
 namespace DatabaseHelper
 {
-    public class StoreProcedureHelper : IStoreProcedureHelper
+    public class CommandHelper : ICommandHelper
     {
         public string ConnectionString { get; set; }
 
-        public StoreProcedureHelper(string connectionString)
+        public CommandHelper(string connectionString)
         {
             ConnectionString = connectionString;
         }
 
-        public StoreProcedureHelper()
+        public CommandHelper()
         {
             ConnectionString = "";
         }
 
-        public int ExecuteCommand(string procName, object parameters = null)
+        public IList<T> ExecuteRead<T>(string sqlCommand, object parameters = null)
         {
             try
             {
@@ -32,28 +32,7 @@ namespace DatabaseHelper
                 using (IDbConnection cnn = new SqlConnection(ConnectionString))
                 {
                     cnn.Open();
-                    int rows = cnn.Execute(procName, parameters, commandType: CommandType.StoredProcedure);
-
-                    return rows;
-                }
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        public IList<T> ExecuteRead<T>(string procName, object parameters = null)
-        {
-            try
-            {
-                if (string.IsNullOrEmpty(ConnectionString))
-                    throw new Exception("The connection string has not been specified");
-
-                using (IDbConnection cnn = new SqlConnection(ConnectionString))
-                {
-                    cnn.Open();
-                    var data = cnn.Query<T>(procName, parameters, commandType: CommandType.StoredProcedure);
+                    var data = cnn.Query<T>(sqlCommand, parameters, commandType: CommandType.Text);
 
                     return data.ToList();
                 }
@@ -64,7 +43,7 @@ namespace DatabaseHelper
             }
         }
 
-        public object ExecuteScalar(string procName, object parameters = null)
+        public int ExecuteCommand(string sqlCommand, object parameters = null)
         {
             try
             {
@@ -74,7 +53,28 @@ namespace DatabaseHelper
                 using (IDbConnection cnn = new SqlConnection(ConnectionString))
                 {
                     cnn.Open();
-                    var scalarValue = cnn.Query<object>(procName, parameters, commandType: CommandType.StoredProcedure);
+                    int rows = cnn.Execute(sqlCommand, parameters, commandType: CommandType.Text);
+
+                    return rows;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public object ExecuteScalar(string sqlCommand, object parameters = null)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(ConnectionString))
+                    throw new Exception("The connection string has not been specified");
+
+                using (IDbConnection cnn = new SqlConnection(ConnectionString))
+                {
+                    cnn.Open();
+                    var scalarValue = cnn.Query<object>(sqlCommand, parameters, commandType: CommandType.Text);
 
                     return scalarValue;
                 }

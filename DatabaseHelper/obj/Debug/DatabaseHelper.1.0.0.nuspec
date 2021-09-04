@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DatabaseHelper</id>
+    <version>1.0.0</version>
+    <authors>emmanuel.caamal</authors>
+    <description>Proporciona la facilidad de ejecución de procedimientos almacenados</description>
+    <tags>Procedures, DatabaseHelper</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Dapper" version="2.0.78" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Emmanuel\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.dll" target="lib\netcoreapp3.1\DatabaseHelper.dll" />
+  </files>
+</package>

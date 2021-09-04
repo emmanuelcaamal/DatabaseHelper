@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>DatabaseHelper</PackageId>
+	  <Version>1.0.0.1</Version>
+	  <PackageVersion>1.0.0.1</PackageVersion>
+	  <Authors>emmanuel.caamal</Authors>
+	  <Company>None</Company>
+	  <PackageTags>Procedures, DatabaseHelper</PackageTags>
+	  <Description>
+		  Proporciona la facilidad de ejecución de procedimientos almacenados
+	  </Description>
   </PropertyGroup>
 
   <ItemGroup>

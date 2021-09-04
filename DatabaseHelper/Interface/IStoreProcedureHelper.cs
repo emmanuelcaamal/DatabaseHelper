@@ -4,10 +4,11 @@ namespace DatabaseHelper.Interface
 {
     public interface IStoreProcedureHelper
     {
-        IList<T> ExecReadProc<T>(string procName,object parameters = null);
+        string ConnectionString { get; set; }
+        IList<T> ExecuteRead<T>(string procName,object parameters = null);
 
-        int ExecCommandProc(string procName, object parameters = null);
+        int ExecuteCommand(string procName, object parameters = null);
 
-        object ExecScalarProc(string procName, object parameters = null);
+        object ExecuteScalar(string procName, object parameters = null);
     }
 }
