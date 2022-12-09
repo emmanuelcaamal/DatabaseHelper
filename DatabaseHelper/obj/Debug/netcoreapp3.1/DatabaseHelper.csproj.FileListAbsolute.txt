@@ -7,3 +7,13 @@ C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper
 C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.dll
 C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.pdb
 C:\Users\Emmanuel\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.csproj.AssemblyReference.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.deps.json
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.pdb
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.csproj.AssemblyReference.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.AssemblyInfoInputs.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.AssemblyInfo.cs
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\obj\Debug\netcoreapp3.1\DatabaseHelper.pdb

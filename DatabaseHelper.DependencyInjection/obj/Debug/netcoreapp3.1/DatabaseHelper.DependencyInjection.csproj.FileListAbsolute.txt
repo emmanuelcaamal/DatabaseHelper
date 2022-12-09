@@ -10,3 +10,16 @@ C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper
 C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.dll
 C:\Users\EMMANUEL\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.pdb
 C:\Users\Emmanuel\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.deps.json
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.dll
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.pdb
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.dll
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\bin\Debug\netcoreapp3.1\DatabaseHelper.pdb
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.AssemblyInfo.cs
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.csproj.CopyComplete
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.dll
+C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper.DependencyInjection\obj\Debug\netcoreapp3.1\DatabaseHelper.DependencyInjection.pdb

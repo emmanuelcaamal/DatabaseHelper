@@ -14,6 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Emmanuel\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.dll" target="lib\netcoreapp3.1\DatabaseHelper.dll" />
+    <file src="C:\Users\caama\OneDrive\Documentos\source\repos\DatabaseHelper\DatabaseHelper\bin\Debug\netcoreapp3.1\DatabaseHelper.dll" target="lib\netcoreapp3.1\DatabaseHelper.dll" />
   </files>
 </package>

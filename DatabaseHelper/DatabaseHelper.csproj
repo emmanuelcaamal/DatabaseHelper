@@ -4,8 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>DatabaseHelper</PackageId>
-	  <Version>1.0.0.1</Version>
-	  <PackageVersion>1.0.0.1</PackageVersion>
+	  <Version>1.0.0.3</Version>
+	  <PackageVersion>1.0.0.3</PackageVersion>
 	  <Authors>emmanuel.caamal</Authors>
 	  <Company>None</Company>
 	  <PackageTags>Procedures, DatabaseHelper</PackageTags>

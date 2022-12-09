@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>DatabaseHelper.DependencyInjection</PackageId>
-	  <Version>1.0.0.1</Version>
-	  <PackageVersion>1.0.0.1</PackageVersion>
+	  <Version>1.0.0.3</Version>
+	  <PackageVersion>1.0.0.3</PackageVersion>
 	  <Authors>emmanuel.caamal</Authors>
 	  <Company>None</Company>
 	  <PackageTags>DatabaseHelper, DependencyInjection</PackageTags>

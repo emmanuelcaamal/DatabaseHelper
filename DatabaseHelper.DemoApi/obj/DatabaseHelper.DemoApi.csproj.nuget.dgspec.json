@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj": {}
+    "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj": {
+    "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj",
+        "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj",
         "projectName": "DatabaseHelper.DemoApi",
-        "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj",
-        "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\obj\\",
+        "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\DatabaseHelper.DemoApi.csproj",
+        "packagesPath": "C:\\Users\\caama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DemoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +29,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj": {
-                "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj"
+              "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj": {
+                "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj"
               },
-              "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
-                "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj"
+              "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
+                "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj"
               }
             }
           }
@@ -53,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj": {
-      "version": "1.0.0.1",
+    "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj": {
+      "version": "1.0.0.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
+        "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
         "projectName": "DatabaseHelper.DependencyInjection",
-        "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
-        "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\obj\\",
+        "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\caama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
-                "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj"
+              "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
+                "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj"
               }
             }
           }
@@ -121,7 +122,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -130,21 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
-      "version": "1.0.0.1",
+    "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
+      "version": "1.0.0.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj",
+        "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj",
         "projectName": "DatabaseHelper",
-        "projectPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj",
-        "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\obj\\",
+        "projectPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj",
+        "packagesPath": "C:\\Users\\caama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,7 +188,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -195,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
