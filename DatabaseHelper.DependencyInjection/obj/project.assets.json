@@ -185,7 +185,7 @@
           }
         }
       },
-      "DatabaseHelper/1.0.0.3": {
+      "DatabaseHelper/1.0.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -610,7 +610,7 @@
         "version.txt"
       ]
     },
-    "DatabaseHelper/1.0.0.3": {
+    "DatabaseHelper/1.0.0.4": {
       "type": "project",
       "path": "../DatabaseHelper/DatabaseHelper.csproj",
       "msbuildProject": "../DatabaseHelper/DatabaseHelper.csproj"
@@ -618,7 +618,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DatabaseHelper >= 1.0.0.3",
+      "DatabaseHelper >= 1.0.0.4",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0"
     ]
   },
@@ -626,7 +626,7 @@
     "C:\\Users\\caama\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0.3",
+    "version": "1.0.0.4",
     "restore": {
       "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
       "projectName": "DatabaseHelper.DependencyInjection",

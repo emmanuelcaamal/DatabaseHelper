@@ -71,7 +71,7 @@
       }
     },
     "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj": {
-      "version": "1.0.0.3",
+      "version": "1.0.0.4",
       "restore": {
         "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper.DependencyInjection\\DatabaseHelper.DependencyInjection.csproj",
         "projectName": "DatabaseHelper.DependencyInjection",
@@ -137,7 +137,7 @@
       }
     },
     "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj": {
-      "version": "1.0.0.3",
+      "version": "1.0.0.4",
       "restore": {
         "projectUniqueName": "C:\\Users\\caama\\OneDrive\\Documentos\\source\\repos\\DatabaseHelper\\DatabaseHelper\\DatabaseHelper.csproj",
         "projectName": "DatabaseHelper",

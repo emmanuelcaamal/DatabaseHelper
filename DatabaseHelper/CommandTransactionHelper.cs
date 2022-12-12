@@ -22,12 +22,12 @@ namespace DatabaseHelper
 			Connection = connection;
 		}
 
-		public void CreateConnection(string connectionString)
+		public void SetConnection(string connectionString)
 		{
 			Connection = new SqlConnection(connectionString);
 		}
 
-		public void CreateConnection(SqlConnection connection)
+		public void SetConnection(SqlConnection connection)
 		{
 			Connection = connection;
 		}
@@ -74,7 +74,7 @@ namespace DatabaseHelper
 				if (Connection.State != ConnectionState.Open)
 					Connection.Open();
 
-				var scalarValue = Connection.Query<object>(sqlCommand, parameters, Transaction, commandType: CommandType.Text);
+				var scalarValue = Connection.ExecuteScalar(sqlCommand, parameters, Transaction, commandType: CommandType.Text);
 				return scalarValue;
 			}
 			catch (Exception ex)
@@ -84,7 +84,27 @@ namespace DatabaseHelper
 			}
 		}
 
-		public IList<T> ExecuteRead<T>(string sqlCommand, object parameters = null)
+		public T ExecuteScalar<T>(string sqlCommand, object parameters = null)
+        {
+            try
+            {
+                if (Connection == null)
+                    throw new Exception("There is no connection to the database");
+
+                if (Connection.State != ConnectionState.Open)
+                    Connection.Open();
+
+                var scalarValue = Connection.ExecuteScalar<T>(sqlCommand, parameters, Transaction, commandType: CommandType.Text);
+                return scalarValue;
+            }
+            catch (Exception ex)
+            {
+                RollbackTransaction();
+                throw ex;
+            }
+        }
+
+        public IList<T> ExecuteRead<T>(string sqlCommand, object parameters = null)
 		{
 			try
 			{

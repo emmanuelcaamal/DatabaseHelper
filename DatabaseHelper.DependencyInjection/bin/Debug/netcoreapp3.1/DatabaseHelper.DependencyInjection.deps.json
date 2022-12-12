@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DatabaseHelper.DependencyInjection/1.0.0.3": {
+      "DatabaseHelper.DependencyInjection/1.0.0.4": {
         "dependencies": {
-          "DatabaseHelper": "1.0.0.3",
+          "DatabaseHelper": "1.0.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
@@ -110,7 +110,7 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "DatabaseHelper/1.0.0.3": {
+      "DatabaseHelper/1.0.0.4": {
         "dependencies": {
           "Dapper": "2.0.78",
           "System.Data.SqlClient": "4.8.2"
@@ -122,7 +122,7 @@
     }
   },
   "libraries": {
-    "DatabaseHelper.DependencyInjection/1.0.0.3": {
+    "DatabaseHelper.DependencyInjection/1.0.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -211,7 +211,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "DatabaseHelper/1.0.0.3": {
+    "DatabaseHelper/1.0.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

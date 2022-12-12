@@ -185,7 +185,7 @@
           }
         }
       },
-      "DatabaseHelper/1.0.0.3": {
+      "DatabaseHelper/1.0.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -199,11 +199,11 @@
           "bin/placeholder/DatabaseHelper.dll": {}
         }
       },
-      "DatabaseHelper.DependencyInjection/1.0.0.3": {
+      "DatabaseHelper.DependencyInjection/1.0.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "DatabaseHelper": "1.0.0.3",
+          "DatabaseHelper": "1.0.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {
@@ -624,12 +624,12 @@
         "version.txt"
       ]
     },
-    "DatabaseHelper/1.0.0.3": {
+    "DatabaseHelper/1.0.0.4": {
       "type": "project",
       "path": "../DatabaseHelper/DatabaseHelper.csproj",
       "msbuildProject": "../DatabaseHelper/DatabaseHelper.csproj"
     },
-    "DatabaseHelper.DependencyInjection/1.0.0.3": {
+    "DatabaseHelper.DependencyInjection/1.0.0.4": {
       "type": "project",
       "path": "../DatabaseHelper.DependencyInjection/DatabaseHelper.DependencyInjection.csproj",
       "msbuildProject": "../DatabaseHelper.DependencyInjection/DatabaseHelper.DependencyInjection.csproj"
@@ -637,8 +637,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DatabaseHelper >= 1.0.0.3",
-      "DatabaseHelper.DependencyInjection >= 1.0.0.3"
+      "DatabaseHelper >= 1.0.0.4",
+      "DatabaseHelper.DependencyInjection >= 1.0.0.4"
     ]
   },
   "packageFolders": {

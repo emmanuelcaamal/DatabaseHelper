@@ -31,8 +31,8 @@
     ".NETCoreApp,Version=v3.1": {
       "DatabaseHelper.DemoApi/1.0.0": {
         "dependencies": {
-          "DatabaseHelper": "1.0.0.2",
-          "DatabaseHelper.DependencyInjection": "1.0.0.2",
+          "DatabaseHelper": "1.0.0.3",
+          "DatabaseHelper.DependencyInjection": "1.0.0.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -426,7 +426,7 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "DatabaseHelper/1.0.0.2": {
+      "DatabaseHelper/1.0.0.3": {
         "dependencies": {
           "Dapper": "2.0.78",
           "System.Data.SqlClient": "4.8.2"
@@ -438,9 +438,9 @@
           "DatabaseHelper.dll": {}
         }
       },
-      "DatabaseHelper.DependencyInjection/1.0.0.2": {
+      "DatabaseHelper.DependencyInjection/1.0.0.3": {
         "dependencies": {
-          "DatabaseHelper": "1.0.0.2",
+          "DatabaseHelper": "1.0.0.3",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
@@ -2228,12 +2228,12 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "DatabaseHelper/1.0.0.2": {
+    "DatabaseHelper/1.0.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DatabaseHelper.DependencyInjection/1.0.0.2": {
+    "DatabaseHelper.DependencyInjection/1.0.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

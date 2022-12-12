@@ -32,16 +32,18 @@ namespace DatabaseHelper.DemoApi.Controllers
             //_spHelper.ConnectionString = "Data Source=localhost, 1433;Initial Catalog=CBLRDDB01_PETO;User ID=sa;Password=Mssql2020!";
             //_commandHelper.ConnectionString = "Data Source=localhost, 1433;Initial Catalog=CBLRDDB01_PETO;User ID=sa;Password=Mssql2020!";
 
-            _commandTransactionHelper.CreateConnection(new SqlConnection("Data Source=localhost, 1433;Initial Catalog=CBLRDDB01_PETO;User ID=sa;Password=Mssql2020!"));
-			_commandTransactionHelper.OpenTransaction(System.Data.IsolationLevel.RepeatableRead);
-			
-			_commandTransactionHelper.ExecuteCommand("update Payments set UserUpdate = @userName, UpdateDate = getdate() where PaymentID = @entityId", new { entityId = "AE1BEA19-FBEB-4FB5-A0B3-A910010620DB", userName = "User3" });
-			_commandTransactionHelper.ExecuteCommand("update Payments set UserUpdate = @userName, UpdateDate = getdate() where PaymentID = @entityId", new { entityId = "91909DCD-9979-4E1E-87B4-A91001064AD2", userName = "User4" });
-			var payments = _commandTransactionHelper.ExecuteRead<object>("select * from Payments where FKOpeningBox = @opening", new { opening = "091E5F55-2ADB-4BEB-BDEB-A9100105ECB9" });
+            _commandTransactionHelper.SetConnection(new SqlConnection("Data Source=localhost, 1433;Initial Catalog=CBLRDDB01_PETO;User ID=sa;Password=Mssql2020!"));
+            //_commandTransactionHelper.OpenTransaction(System.Data.IsolationLevel.RepeatableRead);
 
-			_commandTransactionHelper.CommitTransaction();
+            //_commandTransactionHelper.ExecuteCommand("update Payments set UserUpdate = @userName, UpdateDate = getdate() where PaymentID = @entityId", new { entityId = "AE1BEA19-FBEB-4FB5-A0B3-A910010620DB", userName = "User3" });
+            //_commandTransactionHelper.ExecuteCommand("update Payments set UserUpdate = @userName, UpdateDate = getdate() where PaymentID = @entityId", new { entityId = "91909DCD-9979-4E1E-87B4-A91001064AD2", userName = "User4" });
+            //var payments = _commandTransactionHelper.ExecuteRead<object>("select * from Payments where FKOpeningBox = @opening", new { opening = "091E5F55-2ADB-4BEB-BDEB-A9100105ECB9" });
 
-            return payments;
+            //_commandTransactionHelper.CommitTransaction();
+            var id = _commandTransactionHelper.ExecuteScalar(@"insert into TmpTest values('Emmanuel Caamal'); select SCOPE_IDENTITY();");
+
+
+            return id;
         }
 
         [HttpGet]
