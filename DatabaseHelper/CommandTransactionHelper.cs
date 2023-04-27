@@ -129,7 +129,7 @@ namespace DatabaseHelper
 			}	
 		}
 
-		private void RollbackTransaction()
+		public void RollbackTransaction()
 		{
 			if (Transaction != null)
 			{
