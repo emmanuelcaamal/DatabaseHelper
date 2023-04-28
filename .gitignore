@@ -1,0 +1,16 @@
+
+DatabaseHelper.DemoApi/bin/Debug/netcoreapp3.1/
+
+DatabaseHelper.DependencyInjection/bin/Debug/netcoreapp3.1/
+
+DatabaseHelper.DependencyInjection/obj/
+
+DatabaseHelper.DemoApi/obj/
+
+DatabaseHelper.DependencyInjection/bin/Debug/
+
+DatabaseHelper/obj/
+
+DatabaseHelper/bin/Debug/netcoreapp3.1/
+
+DatabaseHelper/bin/Debug/
