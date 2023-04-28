@@ -14,5 +14,6 @@ namespace DatabaseHelper.Interface
         int ExecuteCommand(string sqlCommand, object parameters = null);
 		void OpenTransaction(IsolationLevel isolation = IsolationLevel.Unspecified);
 		IList<T> ExecuteRead<T>(string sqlCommand, object parameters = null);
-    }
+		void RollbackTransaction();
+	}
 }
