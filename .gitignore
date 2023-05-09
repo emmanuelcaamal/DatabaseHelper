@@ -14,3 +14,5 @@ DatabaseHelper/obj/
 DatabaseHelper/bin/Debug/netcoreapp3.1/
 
 DatabaseHelper/bin/Debug/
+
+.vscode/
